@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#161515">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:textSize="20sp"
+        android:textColor="#FFC107"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/etFileName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#6A6A6A"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:hint="Enter File Name"/>
+
+    <Button
+        android:id="@+id/btnSelectFile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:text="Select File"/>
+
+    <TextView
+        android:id="@+id/tvSelectedFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="No file selected"/>
+
+    <Button
+        android:id="@+id/btnUploadFile"
+        android:layout_width="150dp"
+        android:backgroundTint="#896804"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="Upload File"/>
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:padding="20dp"
+        android:textSize="15sp"
+        android:layout_gravity="start"
+        android:textColor="@color/white"
+        android:text="Back"/>
+
+</LinearLayout>
