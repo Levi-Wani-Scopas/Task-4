@@ -1,10 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#3A3937">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profile1"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:clickable="true"/>
+
+    <EditText
+        android:id="@+id/profileName"
+        android:textColor="@color/white"
+        android:textColorHint="#898787"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"/>
+
+    <TextView
+        android:id="@+id/profileEmail"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#896804"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Update Profile"/>
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="start"
+        />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="130dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/black"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Logout"
+        />
+
+
+
+</LinearLayout>
