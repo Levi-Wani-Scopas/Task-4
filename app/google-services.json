@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675410651462",
+    "project_id": "fir-assignment-four",
+    "storage_bucket": "fir-assignment-four.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675410651462:android:6f07fbf49fdd84d63ddd47",
+        "android_client_info": {
+          "package_name": "com.example.assignmentfour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8EYnWCL4j_elaUdEtAJNpBKzQh8OlSvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675410651462:android:310b3d701ecdc8ff3ddd47",
+        "android_client_info": {
+          "package_name": "com.example.taskfour"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8EYnWCL4j_elaUdEtAJNpBKzQh8OlSvY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
